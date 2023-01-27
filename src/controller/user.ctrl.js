@@ -25,7 +25,7 @@ try {
 } catch (error) {
     console.log("err",error);
     res.status(500).json({
-        message:"something went wrong...!!!",
+        message:"something went wrong!!!",
         status:500
     })
 }
